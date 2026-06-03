@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="34%" r="82%">
+      <stop offset="0%" stop-color="#2f5a73"/>
+      <stop offset="55%" stop-color="#241f57"/>
+      <stop offset="100%" stop-color="#161235"/>
+    </radialGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff89a6"/><stop offset="0.5" stop-color="#ff5277"/><stop offset="1" stop-color="#e23b66"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe98f"/><stop offset="0.5" stop-color="#ffd23f"/><stop offset="1" stop-color="#f0a81f"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8be78f"/><stop offset="0.5" stop-color="#5fd16a"/><stop offset="1" stop-color="#3aa84f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Edelstein-Hintergrund (maskable-tauglich, volle Fläche) -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="104" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="3"/>
+
+  <!-- Bodenschatten -->
+  <ellipse cx="256" cy="452" rx="150" ry="22" fill="#000000" opacity="0.28"/>
+
+  <!-- Pink Jelly-Blob (groß, hinten) -->
+  <g>
+    <rect x="150" y="120" width="216" height="216" rx="58" fill="url(#pink)"/>
+    <ellipse cx="228" cy="185" rx="56" ry="37" fill="#ffffff" opacity="0.55" transform="rotate(-28 228 185)"/>
+    <rect x="154" y="124" width="208" height="208" rx="55" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="3"/>
+  </g>
+
+  <!-- Gelb Jelly-Blob (vorne links) -->
+  <g>
+    <rect x="104" y="276" width="160" height="160" rx="44" fill="url(#yellow)"/>
+    <ellipse cx="162" cy="324" rx="42" ry="27" fill="#ffffff" opacity="0.55" transform="rotate(-28 162 324)"/>
+    <rect x="108" y="280" width="152" height="152" rx="41" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="3"/>
+  </g>
+
+  <!-- Grün Jelly-Blob (vorne rechts) -->
+  <g>
+    <rect x="252" y="276" width="160" height="160" rx="44" fill="url(#green)"/>
+    <ellipse cx="310" cy="324" rx="42" ry="27" fill="#ffffff" opacity="0.55" transform="rotate(-28 310 324)"/>
+    <rect x="256" y="280" width="152" height="152" rx="41" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="3"/>
+  </g>
+</svg>

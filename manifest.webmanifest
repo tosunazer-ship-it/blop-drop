@@ -1,0 +1,20 @@
+{
+  "name": "Blop Drop",
+  "short_name": "Blop Drop",
+  "description": "Squishy Jelly-Puzzle: bunte Blobs platzieren, Reihen & Farben auflösen.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a1640",
+  "theme_color": "#1a1640",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
