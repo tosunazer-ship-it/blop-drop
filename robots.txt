@@ -1,3 +1,0 @@
-# Blop Drop — alles indexierbar
-User-agent: *
-Allow: /
